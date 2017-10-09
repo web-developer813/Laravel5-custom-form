@@ -1,0 +1,126 @@
+.margin-bottom-50{
+    margin-bottom:  50px;
+}
+.margin-bottom-10{
+    margin-bottom:  10px;
+}
+.margin-bottom-20{
+    margin-bottom:  20px;
+}
+.margin-bottom-30{
+    margin-bottom:  30px;
+}
+.margin-bottom-40{
+    margin-bottom:  40px;
+}
+.margin-bottom-5{
+     margin-bottom:  5px;
+ }
+.margin-bottom-15{
+    margin-bottom: 15px;
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-top-60{
+    margin-top: 60px;
+}
+
+.help-block {
+    color:red;
+}
+/* A container to position LABELS */
+.form-group-change{
+    position:relative;
+}
+.form-group-change input{
+    border-radius:0px!important;
+}
+.input-text-select{
+    background: #fff!important;
+    border-radius: 0px!important;
+    padding-top:22px!important;
+}
+.input-text {
+    padding: 19px 10px 10px 10px;
+    border: 1px solid #ccc;
+    border:none;
+    /*-webkit-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;*/
+    /*box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;*/
+    border-radius:5px;
+    width:100%;
+    border-bottom:1px solid #ccc;
+}
+.padding-top-7{
+    padding-top: 7px;
+}
+/* we put label on top of the input*/
+.label-helper {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    bottom: 1px;
+    left: .5em;
+    z-index: 1;
+    height: 1em;
+    font-size: 13px;
+    line-height: 3.5em;
+    color: #999;
+    white-space: nowrap;
+    cursor: text;
+    transition:all .1s ease;
+
+}
+
+.input-text:focus ~ label, .input-text:valid ~label {
+    font-size:9px;
+    font-weight:bold;
+    left:5px;
+    top:-5px;
+}
+.input-text:valid ~label {
+    color:rgb(63,81,181);
+}
+.input-text:focus, .input-text:valid{
+    outline: none;
+    border-bottom: 2px solid rgb(63,81,181);
+}
+.input-text:focus:invalid ~label{
+    color:red;
+}
+
+.input-text:required ~label::before {
+    content:"*";
+    color:red;
+}
+.input-text:required:valid ~label::before {
+    color:rgb(63,81,181);
+}
+.label-helper-change{
+    right:16px;
+    left:20px!important;
+}
+.border-bottom-2-soild{
+    border-bottom: 2px solid #ccc;
+}
+#successAddPropertyMessage{
+    display: none;
+}
+#errorAddPropertyMessage, #errorAddEditPhoneMessage, #errorAddEditPropertyContactMessage, #errorAddEditPropertyCommentMessage, #errorAddEditPropertyCompanytMessage,#errorAddEditCompanyPhoneMessage, #errorAddEditPropertyCompanyContactMessage, #errorAddEditRequestCommentMessage, #errorAddEditRequestFileMessage{
+    display: none;
+}
+.font-weight-900{
+    font-weight: 900;
+}
